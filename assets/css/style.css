@@ -4,6 +4,7 @@
 
 :root {
     --primary-color: #1EBFC1;
+    --media-background-color: #FEFEFD;
 }
 
 html {
@@ -13,6 +14,7 @@ html {
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
+    font-size: 1.8rem;
 }
 
 /* =================== common ===================*/
@@ -25,6 +27,29 @@ a {
     margin: 0 auto;
     width: 1170px;
     max-width: calc(100% - 48px);
+}
+
+.btn {
+    display: inline-block;
+    min-width: 186px;
+    line-height: 68px;
+    text-align: center;
+    border-radius: 14px;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.detail {
+    color: #0D1111;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: normal;
 }
 
 /* =================== header ===================*/
@@ -86,4 +111,179 @@ a {
     color: #fff;
     background-color: var(--primary-color);
     transition: background-color 0.4s;
+}
+
+/* =================== hero ===================*/
+
+.hero {
+    padding-top: 42px;
+    display: flex;
+}
+
+.hero .body {
+    display: flex;
+}
+
+.hero .content-block {
+    margin-top: 93px;
+    width: 50%;
+}
+
+.hero .label {
+    color: #767E7E;
+    font-size: 1.4rem;
+}
+
+.hero .title {
+    margin-top: 18px;
+    color: #0D1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 1.16;
+}
+
+.hero .desc {
+    margin-top: 46px;
+    width: 374px;
+    color: #9DA6A5;
+    line-height: 1.78;
+}
+
+.hero .action {
+    margin-top: 52px;
+    display: flex;
+}
+
+.hero .action .watch-video {
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 62px;
+    height: 62px;
+    border-radius: 62px;
+    background: #FFF;
+    box-shadow: 0px 22px 50px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .action .watch-video:hover {
+    background: #eee;
+    box-shadow: 0px 0px 0px 0px rgba(196, 26, 134, 0.5);
+    color: #fff;
+    transition: 0.5s;
+}
+
+.hero .media-block {
+    width: 50%;
+    position: relative;
+}
+
+.hero .media-block .img {
+    width: 585px;
+    height: 631px;
+    border-radius: 25px;
+}
+
+.hero .media-course {
+    width: 157px;
+    height: 75px;
+    border-radius: 18px;
+    background: var(--media-background-color);
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    position: absolute;
+    top: 149px;
+    left: -40px;
+}
+
+.hero .media-course .icon {
+    position: relative;
+}
+
+.hero .media-course .icon2 {
+    position: absolute;
+    bottom: 8px;
+    left: 4px;
+    right: 4px;
+}
+
+.hero .media-course .detail {
+    width: 55px;
+}
+
+.hero .media-schedule {
+    width: 124px;
+    height: 132px;
+    border-radius: 24px;
+    background: var(--media-background-color);
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    position: absolute;
+    top: 453px;
+    left: -65px;
+}
+
+.hero .media-schedule .detail {
+    display: inline-block;
+    margin: 16px 25px 0;
+}
+
+.hero .media-schedule .icon img {
+    display: block;
+}
+
+.hero .media-schedule .icon .img-1 {
+    margin: 16px 25px 0;
+}
+
+.hero .media-schedule .icon .img-2 {
+    margin: 12px 25px 0;
+}
+
+.hero .media-schedule .icon .img-3 {
+    margin: 10px 25px 0;
+}
+
+.hero .media-schedule .icon .img-4 {
+    margin: 16px 49px 0;
+}
+
+.hero .media-avatar {
+    width: 207px;
+    height: 90px;
+    border-radius: 24px;
+    background-color: var(--media-background-color);
+    position: absolute;
+    top: 500px;
+    left: 324px;
+}
+
+.hero .media-avatar .detail {
+    display: inline-block;
+    margin: 17px 35px 0;
+}
+
+.hero .media-avatar .avatar {
+    display: flex;
+    margin: 8px 35px 0 42px;
+}
+
+.hero .media-avatar .avatar img,
+.hero .media-avatar .avatar .avatar-more {
+    margin-left: -7px;
+    width: 33px;
+    height: 33px;
+    border-radius: 33px;
+}
+
+.hero .media-avatar .avatar .avatar-more {
+    background-color: var(--primary-color);
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 33px;
 }
