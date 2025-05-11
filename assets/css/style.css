@@ -14,7 +14,6 @@ html {
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-size: 1.8rem;
 }
 
 /* =================== common ===================*/
@@ -37,6 +36,7 @@ a {
     border-radius: 14px;
     background-color: var(--primary-color);
     color: #fff;
+    font-size: 1.8rem;
     font-weight: 600;
     box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
 }
@@ -49,6 +49,13 @@ a {
     color: #0D1111;
     font-size: 1rem;
     font-weight: 500;
+    line-height: normal;
+}
+
+.heading-lv2 {
+    color: #0D1111;
+    font-size: 4.2rem;
+    font-weight: 700;
     line-height: normal;
 }
 
@@ -116,7 +123,7 @@ a {
 /* =================== hero ===================*/
 
 .hero {
-    padding-top: 42px;
+    padding: 42px 0 79px;
     display: flex;
 }
 
@@ -144,8 +151,9 @@ a {
 
 .hero .desc {
     margin-top: 46px;
-    width: 374px;
+    max-width: 374px;
     color: #9DA6A5;
+    font-size: 1.8rem;
     line-height: 1.78;
 }
 
@@ -287,3 +295,76 @@ a {
     font-weight: 500;
     line-height: 33px;
 }
+
+/* =================== features ===================*/
+
+.features {
+    padding: 130px 0;
+}
+
+.features .body {
+    max-width: 1024px;
+}
+
+.feature-info {
+    max-width: 590px;
+}
+
+.feature-info .label {
+    color: #767E7E;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.feature-info .heading-lv2 {
+    margin-top: 18px;
+    line-height: 1.33;
+}
+
+.feature-info .desc {
+    margin-top: 18px;
+    color: #767E7E;
+    font-size: 1.8rem;
+    line-height: normal;
+}
+
+.feature-list {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-list .ft-item .title {
+    margin-top: 26px;
+}
+
+.feature-list .ft-item .title a {
+    color: #0D1111;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.feature-list .ft-item .desc {
+    margin-top: 16px;
+    color: #9DA6A5;
+    font-size: 1.6rem;
+    line-height: 1.69;
+}
+
+.feature-list .ft-item.item1 {
+    max-width: 168px;
+}
+
+.feature-list .ft-item.item2 {
+    max-width: 223px;
+}
+
+.feature-list .ft-item.item3 {
+    max-width: 224px;
+}
+
+
+
+
