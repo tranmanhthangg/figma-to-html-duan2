@@ -493,3 +493,184 @@ a {
     border-radius: 50%;
     background-color: var(--primary-color);
 }
+
+/* =================== cowndown ===================*/
+
+.countdown {
+    margin-top: 140px;
+    padding: 65px 0;
+}
+
+.countdown .body {
+    margin: 0 auto;
+    max-width: 862px;
+}
+
+.countdown .body .countdown-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.countdown-list .cd-item strong {
+    color: #0D1111;
+    text-align: center;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.countdown-list .cd-item .desc {
+    margin-top: 11px;
+    color: #767E7E;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: normal;
+}
+
+/* =================== feedback ===================*/
+
+.feedback {
+    margin-top: 135px;
+    padding: 65px 0;
+}
+
+.feedback .body {
+    position: relative;
+}
+
+.feedback .body .quote-icon {
+    margin-top: 37px;
+}
+
+.feedback .body .comment {
+    margin-top: 27px;
+    max-width: 419px;
+    color: #5D6564;
+    font-size: 3.2rem;
+    line-height: 1.5;
+}
+
+.feedback .body .desc {
+    margin-top: 33px;
+    color: #767E7E;
+    font-size: 1.6rem;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+}
+
+.feedback .body .desc strong {
+    color: #070707;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.feedback .body .desc::before {
+    content: "";
+    margin-right: 5px;
+    display: inline-block;
+    width: 8px;
+    height: 2px;
+    background-color: #070707;
+}
+
+.feedback .body .controls {
+    margin-top: 52px;
+    margin-bottom: 37px;
+    display: flex;
+    gap: 30px;
+}
+
+.feedback .controls .control-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #2AC9BF;
+    border: none;
+    cursor: pointer;   
+}
+
+.feedback .controls .control-btn:hover {
+    opacity: 0.9;
+    border: 1px solid rgba(207, 20, 195, 0.219);
+    transition: 0.5s;
+}
+
+.feedback .body .fb-ava {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback .body .fb-ava1 {
+    width: 92px;
+    height: 92px;
+    position: absolute;
+    top: 0;
+    left: 635px;
+}
+
+.feedback .body .fb-ava2 {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 19px;
+    left: 1060px;
+}
+
+.feedback .body .fb-ava3 {
+    width: 235px;
+    height: 235px;
+    position: absolute;
+    top: 107px;
+    left: 764px;
+}
+
+.feedback .body .fb-ava4 {
+    width: 78px;
+    height: 78px;
+    position: absolute;
+    top: 258px;
+    left: 491px;
+}
+
+.feedback .body .fb-ava5 {
+    width: 78px;
+    height: 78px;
+    position: absolute;
+    top: 403px;
+    left: 703px;
+}
+
+.feedback .body .fb-ava6 {
+    width: 78px;
+    height: 78px;
+    position: absolute;
+    top: 374px;
+    left: 1060px;
+}
+
+/* =================== admit ===================*/
+
+.admit {
+    margin-top: 65px;
+    padding: 76px 0 88px;
+    background-color: #DEF6F5;
+}
+
+.admit .body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1016px;
+}
+
+.admit .body .intro .desc {
+    margin-top: 18px;
+    color: #767E7E;
+    font-size: 1.8rem;
+    line-height: normal;
+}
