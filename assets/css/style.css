@@ -366,7 +366,7 @@ a {
     max-width: 224px;
 }
 
-/* =================== features ===================*/
+/* =================== course ===================*/
 
 .course {
     margin-top: 10px;
@@ -671,6 +671,59 @@ a {
 .admit .body .intro .desc {
     margin-top: 18px;
     color: #767E7E;
+    font-size: 1.8rem;
+    line-height: normal;
+}
+
+/* =================== footer ===================*/
+
+.footer {
+    margin-top: 65px;
+    padding: 65px 0 50px;
+}
+
+.footer .row-top .columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .row-top .title {
+    color: #2E2E2E;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer .row-top .list {
+    margin-top: 25px;
+}
+
+.footer .row-top .list li {
+    margin-top: 20px;
+    color: #535353;
+    font-size: 1.6rem;
+    line-height: normal;
+}
+
+.footer .row-top .list li a {
+    color: #535353;
+}
+
+.footer .row-top .last-list li a {
+    display: flex;
+}
+
+.footer .row-top .last-list li a .desc {
+    padding-left: 9px;
+}
+
+.footer .copy-right-block {
+    margin-top: 80px;
+}
+
+.footer .copy-right-block .copy-right {
+    color: #B0B5B4;
+    text-align: center;
     font-size: 1.8rem;
     line-height: normal;
 }
